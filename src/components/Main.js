@@ -9,9 +9,7 @@ export default function Main() {
   return (
     <div className="mainWrapper">
       <h1 className="name">{text}</h1>
-      <p className="occupation">
-        'Fachinformatiker fuer Anwendungsentwicklung'
-      </p>
+      <p className="occupation">Fachinformatiker fuer Anwendungsentwicklung</p>
       <p className="link">github.com</p>
       <ButtonSection handleClick={setText} />
       <div className="about">

@@ -3,7 +3,7 @@ import { UserContext } from "./UserContext";
 export default function ButtonSection({ handleClick }) {
   return (
     <div className="buttonSection">
-      <UserContext.Provider value="hi">
+      <UserContext.Provider value="filip">
         <button
           type="button"
           className="button"
@@ -11,6 +11,7 @@ export default function ButtonSection({ handleClick }) {
         >
           GitHub
         </button>
+
         <button
           type="button"
           className="button"
